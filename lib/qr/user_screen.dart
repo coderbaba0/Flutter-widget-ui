@@ -11,7 +11,7 @@ class UserScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('User $userId'),
+        title: Text('Userid $userId'),
       ),
       body: Center(
         child: QrImage(
